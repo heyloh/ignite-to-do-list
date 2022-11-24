@@ -1,0 +1,25 @@
+.button-container {
+  height: 3.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+
+  font-weight: bold;
+  font-size: 0.875rem;
+
+  cursor: pointer;
+  transition: ease-in-out background-color 0.2s;
+}
+
+.button-container:hover {
+  background-color: var(--blue);
+}
